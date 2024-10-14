@@ -43,6 +43,12 @@ docker-compose exec app php artisan db:seed
 
 ## Acceder a la aplicación web y a la base de datos
 
+Antes de acceder a la aplicacion es necesario ejecutar el siguiente comando para hacer el build de los estilos:
+
+```bash
+npm run dev
+```
+
 ### Aplicación web
 
 Puedes acceder a la aplicación web en tu navegador utilizando la siguiente URL:
